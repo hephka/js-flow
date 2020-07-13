@@ -6,3 +6,8 @@ while (i <= num) {
   console.log(i)
   i++
 }
+
+do {
+  console.log(i)
+  i++
+} while (i <= num)
