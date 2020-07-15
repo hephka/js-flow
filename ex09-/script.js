@@ -1,13 +1,4 @@
 "use strict"
+const start = 2
 const num = 10
-let i = 0
-
-while (i <= num) {
-  console.log(i)
-  i++
-}
-
-do {
-  console.log(i)
-  i++
-} while (i <= num)
+/* affiche les nombres de start, essaye while, do while et for */
