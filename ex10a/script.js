@@ -10,13 +10,13 @@ start = prompt(messagestart)
 n = prompt(messageend)
 
 // en utilisant "for" affiche les nombres de 0 à 10 et leurs cubes
-for(number = 0; number <= 10; number ++) {
-    console.log(number, Math.pow(number, 3))
+for(number = 0; number <= 10; number += 1) {
+    console.log(number, number*number*number)
 }
 
 // afficher les nombres de 0 à 16 et leurs cubes
 for(number = 0; number <= 16; number ++) {
-    console.log(number, Math.pow(number, 3))
+    console.log(number, number ** 3)
 }
 
 // déclarer une variable n, afficher les nombres de 0 à n et leurs cubes

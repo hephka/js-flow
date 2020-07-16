@@ -1,34 +1,33 @@
 // mode strict
 "use strict"
 
-let number
-let somme = 0
+let result = 0
 
 // calculer la somme de 1 jusqua'a 10
-for (number = 1; number <= 10; number ++) {
-    somme = somme + number
+for (let i = 1; i <= 10; i ++) {
+    result += i
 }
 
 // utilise console.log pour afficher le résultat
-console.log(somme)
+console.log(result)
 
 // calculer la somme de 1 jusqua'a 16
-for (number = 1; number <= 16; number ++) {
-    somme = somme + number
+for (let i = 1; i <= 16; i ++) {
+    result += i
 }
 
 // utilise console.log pour afficher le résultat
-console.log(somme)
+console.log(result)
 
 // déclarer des variable start et end
 const valeur1 = "Valeur d'entrée"
 const valeur2 ="Valeur de sortie"
-let start = Number(prompt(valeur1))
-let end = Number(prompt(valeur2))
+const start = Number(prompt(valeur1))
+const end = Number(prompt(valeur2))
 
 // calculer la somme de start jusqua'à end
-for (number = start; number <= end; number ++) {
-    somme = start + number
+for (let i = start; i <= end; i ++) {
+    result += i
 }
 // utilise console.log pour afficher le résultat
-console.log(somme)
+console.log(result)

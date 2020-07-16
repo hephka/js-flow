@@ -17,9 +17,14 @@
 */
 
 let message = '*'
-let count
 
-for (count=1; count <= 10; count++) {
+/*
+for (let count = 1; count <= 10; count ++) {
     console.log(message)
-    message = message+"*"
+    message = message + "*"
+}
+*/
+
+for (let i = 1; i < 11; i += 1) {
+    console.log("*".repeat(i))
 }

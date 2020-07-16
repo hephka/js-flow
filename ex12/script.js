@@ -1,8 +1,7 @@
 "use strict"
 //on va créer une simple calculatrice qui fait l'addition
-let a
+let a, b
 const question1 = "Entrez votre 1er chiffre"
-let b
 const question2 = "Entrez votre 2nd chiffre"
 
 /* demande a jusqu'au moment où tu obtiennes une valeur numérique */
@@ -16,5 +15,4 @@ do {
 
 /* fais l'addition et affiche le résultat */
 alert(`Le résultat de ton addition est: ${a+b} `)
-
 console.log(a, b, a+b)
