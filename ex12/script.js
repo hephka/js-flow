@@ -10,7 +10,7 @@ do {
     a = (Number(prompt(question1)))
 } while (isNaN(a))
 do {
-    b = (Number(prompt(question1)))
+    b = (Number(prompt(question2)))
 } while (isNaN(b))
 
 /* fais l'addition et affiche le résultat */
